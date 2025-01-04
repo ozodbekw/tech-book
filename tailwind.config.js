@@ -5,7 +5,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/images/pattern-light-bg.svg')",
+        "circle-pattern": "url('/images/pattern-glow.svg')",
         "footer-texture": "url('/images/pattern-dark-bg.svg')",
+        "text-circle": "url('/images/pattern-circle.png')",
+
+        textGradient: "var(--gradient-text)",
+      },
+      backgroundPosition: {
+        "circle-pattern-pos": "0 0 202px 24px",
       },
       colors: {
         neutral900: "var(--neutral900-color)",
