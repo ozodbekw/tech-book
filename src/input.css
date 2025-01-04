@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Neutral */
+  --neutral900-color: #062630;
+  --neutral700-color: #385159;
+  --neutral200-color: #e6e1df;
+  --neutral100-color: #faf5f3;
+  --neutral0-color: #ffffff;
+
+  /* Light Salmon */
+  --light-salmon500-color: #fea36f;
+  --light-salmon100-color: #fff5ef;
+  --light-salmon50-color: #fff5ef;
+
+  /* Gradient */
+  --gradient-text: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+  --gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-[1170px] px-5;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/inter/Inter_18pt-Regular.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/inter/Inter_18pt-SemiBold.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/poppins-v22-latin-700.woff2) format("woff2");
+  }
+}
