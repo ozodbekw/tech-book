@@ -29,12 +29,12 @@
             and level up your skills one chapter at a time.
           </p>
           <a
-            class="px-[20px] flex w-[395px] rounded-lg border-neutral-900 font-martian font-semibold text-lg bg-salmon50 py-[20.05px] border-2"
+            class="px-[20px] flex w-[395px] rounded-lg border-neutral-900 font-martian font-semibold text-lg bg-salmon50 py-[20.05px] border-2 hover:bg-btnLight focus:outline outline-2 outline-offset-2 outline-neutral-700"
             href="#"
             >REVIEW MEMBERSHIP OPTIONS
             <img class="ml-2" src="./images/icon-arrow-down.svg" alt=""
           /></a>
-          <div class="flex gap-3 mt-[22.5px]">
+          <div class="flex items-center gap-3 mt-[22.5px]">
             <img class="w-[110px]" src="./images/image-avatars.webp" alt="" />
             <div class="flex flex-col">
               <div class="flex flex-row gap-[6px]">
@@ -130,7 +130,7 @@
       </section>
       <!-- Your tech reading journey -->
       <section
-        class="text-center font-martian truncate relative hidden md:block bg-[#FAF5F3] rounded-xl py-[80px] px-[60px] bg-hero-pattern bg-section-pattern bg-full-and-bottom-right bg-no-repeat"
+        class="text-center font-martian truncate relative hidden lg:block bg-[#FAF5F3] rounded-xl py-[80px] px-[60px] bg-hero-pattern bg-section-pattern bg-full-and-bottom-right bg-no-repeat"
       >
         <h2 class="font-semibold text-[50px] text-[#062630]">
           Your tech <br />
@@ -236,7 +236,7 @@
               </li>
             </ul>
             <a
-              class="p-5 font-semibold text-center border-2 rounded-lg border-neutral-900 bg-salmon50"
+              class="p-5 font-semibold text-center transition ease-in-out delay-150 border-2 rounded-lg border-neutral-900 bg-salmon50 hover:bg-btnLight focus:outline outline-2 outline-offset-2 outline-neutral-700"
               href="#"
               >SUBSCRIBE NOW</a
             >
@@ -268,7 +268,7 @@
               </li>
             </ul>
             <a
-              class="p-5 font-semibold text-center border-2 rounded-lg border-neutral-900 bg-salmon50"
+              class="p-5 font-semibold text-center transition ease-in-out delay-150 border-2 rounded-lg border-neutral-900 bg-salmon50 hover:bg-btnLight focus:outline outline-2 outline-offset-2 outline-neutral-700"
               href="#"
               >SUBSCRIBE NOW</a
             >
@@ -296,7 +296,7 @@
               </li>
             </ul>
             <a
-              class="p-5 font-semibold text-center border-2 rounded-lg border-neutral-900 bg-salmon50"
+              class="p-5 font-semibold text-center transition ease-in-out delay-150 border-2 rounded-lg border-neutral-900 bg-salmon50 hover:bg-btnLight focus:outline outline-2 outline-offset-2 outline-neutral-700"
               href="#"
               >SUBSCRIBE NOW</a
             >
@@ -333,12 +333,12 @@
           Ready to debug your reading list?
         </h2>
         <a
-          class="px-[20px] flex w-[395px] rounded-lg border-white font-martian text-white font-semibold text-lg bg-transparent py-[20.05px] border-2"
+          class="px-[20px] flex w-[395px] rounded-lg border-white font-martian text-white font-semibold text-lg bg-transparent py-[20.05px] border-2 hover:bg-btnDark focus:outline outline-2 outline-offset-2 outline-neutral-200"
           href="#"
           >REVIEW MEMBERSHIP OPTIONS
           <img class="ml-2" src="./images/icon-arrow-up.svg" alt=""
         /></a>
-        <div class="flex gap-3 mt-[22.5px] mb-[68.5px]">
+        <div class="flex items-center gap-3 mt-[22.5px] mb-[68.5px]">
           <img class="w-[110px]" src="./images/image-avatars.webp" alt="" />
           <div class="flex flex-col">
             <div class="flex flex-row gap-[6px]">
@@ -359,8 +359,16 @@
       >
         <p>&copy; 2024 – Tech Book Club</p>
         <div class="flex gap-6 icons">
-          <img src="./images/logo-bluesky.svg" alt="bluesky icon" />
-          <img src="./images/logo-linkedin.svg" alt="linkedin icon" />
+          <img
+            class="cursor-pointer hover:opacity-60"
+            src="./images/logo-bluesky.svg"
+            alt="bluesky icon"
+          />
+          <img
+            class="cursor-pointer hover:opacity-60"
+            src="./images/logo-linkedin.svg"
+            alt="linkedin icon"
+          />
         </div>
       </div>
     </footer>

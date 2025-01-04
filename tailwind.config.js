@@ -2,6 +2,16 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    screens: {
+      sm: "375",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1440px",
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/images/pattern-light-bg.svg')",
@@ -10,6 +20,8 @@ module.exports = {
         "text-circle": "url('/images/pattern-circle.png')",
 
         textGradient: "var(--gradient-text)",
+        btnDark: "var(--gradient-button-dark)",
+        btnLight: "var(--gradient-button-light)",
       },
       backgroundPosition: {
         "circle-pattern-pos": "0 0 202px 24px",
