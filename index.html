@@ -6,30 +6,35 @@
     <title>Tech books</title>
     <link rel="stylesheet" href="src/output.css" />
   </head>
-  <body class="flex flex-col h-full">
+  <body class="flex flex-col">
     <!-- Header -->
-    <header class="bg-neutral100 bg-hero-pattern h-[834px]">
+    <header class="bg-neutral100 bg-hero-pattern md:h-full">
       <div class="container">
         <a href="index.html">
-          <img class="pt-8 mb-[80px]" src="./images/logo.svg" alt="site logo"
+          <img
+            class="pt-6 ml-4 md:px-8 mb-[80px] md:mb-[64px] sm:mb-[48px]"
+            src="./images/logo.svg"
+            alt="site logo"
         /></a>
       </div>
-      <div class="container flex justify-between hero">
+      <div
+        class="container flex items-center h-full lg:flex-row md:flex-col lg:flex sm:px-8 sm:flex-col hero"
+      >
         <div class="texts">
           <h1
-            class="text-[62px] bg-clip-text text-transparent bg-textGradient font-bold font-martian"
+            class="text-[32px] md:w-[570px] w-[343px] md:text-[62px] bg-clip-text text-transparent bg-textGradient font-bold font-martian"
           >
             Join the ultimate tech book club
           </h1>
           <p
-            class="font-inter text-neutral-700 w-[570px] text-[20px] mt-[24px] mb-[50px]"
+            class="font-inter text-neutral-700 md:w-[504px] w-[80vw] text-[20px] mt-[24px] mb-[50px]"
           >
             Turn your reading time into learning time with fellow tech
             enthusiasts. Get curated recommendations, join vibrant discussions,
             and level up your skills one chapter at a time.
           </p>
           <a
-            class="px-[20px] flex w-[395px] rounded-lg border-neutral-900 font-martian font-semibold text-lg bg-salmon50 py-[20.05px] border-2 hover:bg-btnLight focus:outline outline-2 outline-offset-2 outline-neutral-700"
+            class="px-[20px] flex w-[80vw] md:w-[380px] rounded-lg border-neutral-900 font-martian font-semibold text-lg bg-salmon50 md:py-[20.05px] border-2 hover:bg-btnLight focus:outline outline-2 outline-offset-2 outline-neutral-700"
             href="#"
             >REVIEW MEMBERSHIP OPTIONS
             <img class="ml-2" src="./images/icon-arrow-down.svg" alt=""
@@ -38,11 +43,11 @@
             <img class="w-[110px]" src="./images/image-avatars.webp" alt="" />
             <div class="flex flex-col">
               <div class="flex flex-row gap-[6px]">
-                <img src="./images/icon-star.svg" alt="" />
-                <img src="./images/icon-star.svg" alt="" />
-                <img src="./images/icon-star.svg" alt="" />
-                <img src="./images/icon-star.svg" alt="" />
-                <img src="./images/icon-star.svg" alt="" />
+                <img src="./images/icon-star.svg" alt="icon-star" />
+                <img src="./images/icon-star.svg" alt="icon-star" />
+                <img src="./images/icon-star.svg" alt="icon-star" />
+                <img src="./images/icon-star.svg" alt="icon-star" />
+                <img src="./images/icon-star.svg" alt="icon-star" />
               </div>
               <p class="text-sm text-neutral-700 font-martian">
                 200+ developers joined already
@@ -51,7 +56,7 @@
           </div>
         </div>
         <img
-          class="w-[536px] h-[606px] rounded-lg"
+          class="md:w-[704px] md:h-[798px] mt-[64px] w-[80vw] h-[371px] lg:h-[606px] rounded-lg"
           src="./images/image-hero-desktop.webp"
           alt="hero image"
         />
@@ -63,33 +68,37 @@
       <!-- Services -->
       <section>
         <!-- Read together, grow together -->
-        <div class="flex items-center pt-[110px] justify-between">
+        <div
+          class="flex items-center flex-col lg:flex-row justify-between mt-[120px] relative"
+        >
           <img
-            class="rounded-xl w-[506px] h-[520px]"
+            class="rounded-xl w-[80vw] h-[318px] md:w-[506px] md:h-[520px]"
             src="./images//image-read-together-desktop.webp"
             alt=""
           />
           <div>
-            <h2 class="font-semibold text-[50px] font-martian">
+            <h2
+              class="font-semibold ml-[40px] text-[34px] md:text-[50px] font-martian"
+            >
               Read together, <br />
               grow together
             </h2>
             <ul
-              class="flex flex-col gap-6 mt-[34px] font-inter text-neutral-700 text-[20px]"
+              class="flex flex-col gap-6 mt-[34px] ml-[40px] font-inter text-neutral-700 text-[20px]"
             >
-              <li class="flex w-[431px]">
+              <li class="flex w-[80vw] md:w-[431px]">
                 <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
                 Monthly curated tech reads selected by industry experts
               </li>
-              <li class="flex w-[431px]">
+              <li class="flex w-[80vw] md:w-[431px]">
                 <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
                 Virtual and in-person meetups for deep-dive discussions
               </li>
-              <li class="flex w-[431px]">
+              <li class="flex w-[80vw] md:w-[431px]">
                 <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
                 Early access to new tech book releases
               </li>
-              <li class="flex w-[431px]">
+              <li class="flex w-[80vw] md:w-[431px]">
                 <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
                 Author Q&A sessions with tech thought leaders
               </li>
@@ -97,18 +106,24 @@
           </div>
         </div>
         <!-- Not your average book club -->
-        <div class="flex items-center justify-between mt-[120px] relative">
+        <div
+          class="flex items-center flex-col lg:flex-row justify-between mt-[120px] relative"
+        >
           <div>
-            <h2 class="font-semibold relative text-[50px] font-martian">
+            <h2
+              class="font-semibold relative text-[50px] ml-[35px] font-martian"
+            >
               Not your average <br />
               book <span>club</span>
               <img
-                class="absolute top-[80px] left-[165px]"
+                class="absolute top-[150px] left-[170px] md:top-[80px] md:left-[165px]"
                 src="./images/pattern-circle.png"
                 alt=""
               />
             </h2>
-            <p class="text-xl w-[530px] mt-6 text-neutral-700">
+            <p
+              class="text-xl w-[80vw] ml-[35px] md:w-[530px] mt-6 text-neutral-700"
+            >
               Connect with a community that speaks your language - from
               <span class="font-semibold">Python</span> to
               <span class="font-semibold">TypeScript</span> and everything in
@@ -116,13 +131,13 @@
               applications.
             </p>
             <img
-              class="absolute bottom-[31px] left-[580px] center"
+              class="absolute bottom-[31px] left-[580px] hidden md:block center"
               src="images/logos-tech.svg"
               alt=""
             />
           </div>
           <img
-            class="rounded-xl w-[506px] h-[520px]"
+            class="rounded-xl w-[80vw] mt-10 md:w-[506px] md:h-[520px]"
             src="./images/image-not-average-desktop.webp"
             alt=""
           />
@@ -205,10 +220,12 @@
       <section
         class="px-[100px] w-full text-neutral-900 font-martian flex items-center flex-col"
       >
-        <h2 class="font-semibold text-[50px] mb-[64px] mx-auto">
+        <h2 class="font-semibold text-[34px] md:text-[50px] mb-[64px] mx-auto">
           Membership options
         </h2>
-        <div class="flex items-center justify-between w-full wrapper">
+        <div
+          class="grid justify-between gap-6 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 wrapper"
+        >
           <div
             class="flex flex-col gap-6 p-6 border rounded-lg border-neutral-200 w-[286px] h-[358px]"
           >
@@ -242,7 +259,7 @@
             >
           </div>
           <div
-            class="flex flex-col gap-6 px-6 py-10 border rounded-lg border-neutral-200 bg-[#FAF5F3] bg-circle-pattern-pos bg-circle-pattern h-[390px] w-[350px] bg-no-repeat"
+            class="flex flex-col gap-6 px-6 py-6 border rounded-lg border-neutral-200 bg-[#FAF5F3] bg-circle-pattern-pos bg-circle-pattern w-[286px] h-[358px] bg-no-repeat"
           >
             <h4 class="text-2xl font-semibold">Pro</h4>
             <div class="text-[34px] font-semibold">
@@ -303,7 +320,7 @@
           </div>
         </div>
       </section>
-      <section class="flex flex-col items-center gap-8">
+      <section class="flex flex-col items-center gap-8 text-left">
         <div class="flex flex-row gap-[6px]">
           <img src="./images/icon-star.svg" alt="" />
           <img src="./images/icon-star.svg" alt="" />
@@ -312,7 +329,7 @@
           <img src="./images/icon-star.svg" alt="" />
         </div>
         <h2
-          class="font-semibold font-martian text-[34px] w-[970px] text-center text-neutral-900"
+          class="font-semibold font-martian text-xl md:text-[34px] w-[343px] md:w-[704px] leading-[44.2px] text-neutral-900"
         >
           "This book club transformed my technical reading from a solitary
           activity into an enriching community experience. The discussions are
@@ -325,15 +342,17 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#062630] bg-footer-texture mt-[120px] pt-[80px]">
+    <footer
+      class="bg-[#062630] rounded-t-lg bg-footer-texture mt-[120px] pt-[80px]"
+    >
       <div class="container flex flex-col items-center footer-top">
         <h2
-          class="font-semibold text-[50px] text-[#FAF5F3] mb-10 w-[650px] text-center"
+          class="font-semibold text-[34px] w-[80vw] md:text-[50px] text-[#FAF5F3] mb-10 md:w-[650px] text-center"
         >
           Ready to debug your reading list?
         </h2>
         <a
-          class="px-[20px] flex w-[395px] rounded-lg border-white font-martian text-white font-semibold text-lg bg-transparent py-[20.05px] border-2 hover:bg-btnDark focus:outline outline-2 outline-offset-2 outline-neutral-200"
+          class="md:px-[20px] flex md:w-[395px] rounded-lg border-white font-martian text-white font-semibold text-lg bg-transparent py-[20.05px] border-2 hover:bg-btnDark focus:outline outline-2 outline-offset-2 outline-neutral-200"
           href="#"
           >REVIEW MEMBERSHIP OPTIONS
           <img class="ml-2" src="./images/icon-arrow-up.svg" alt=""
@@ -355,7 +374,7 @@
         </div>
       </div>
       <div
-        class="container flex justify-between py-6 text-sm text-white border-t border-[#385159] footer-bottom font-martian"
+        class="container flex md:flex-row flex-col items-center justify-between py-6 text-sm text-white border-t border-[#385159] footer-bottom font-martian md:px-10"
       >
         <p>&copy; 2024 – Tech Book Club</p>
         <div class="flex gap-6 icons">
