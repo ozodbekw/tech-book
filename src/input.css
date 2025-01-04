@@ -22,7 +22,7 @@
 
 @layer utilities {
   .container {
-    @apply mx-auto max-w-[1170px] px-5;
+    @apply mx-auto max-w-[1170px];
   }
 }
 
@@ -32,20 +32,34 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../fonts/inter/Inter_18pt-Regular.ttf) format("ttf");
+    src: url(../fonts/inter/Inter_18pt-Regular.woff2) format("woff2");
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url(../fonts/inter/Inter_18pt-SemiBold.ttf) format("ttf");
+    src: url(../fonts/inter/Inter_18pt-SemiBold.woff2) format("woff2");
   }
   @font-face {
-    font-family: "Inter";
+    font-family: "Martian Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/martian-mono/MartianMono-Regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Martian Mono";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/martian-mono/MartianMono-SemiBold.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Martian Mono";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(../fonts/poppins-v22-latin-700.woff2) format("woff2");
+    src: url(../fonts/martian-mono/MartianMono-Bold.woff2) format("woff2");
   }
 }

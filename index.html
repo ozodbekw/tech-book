@@ -1,23 +1,366 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech books</title>
     <link rel="stylesheet" href="src/output.css" />
   </head>
-  <body>
+  <body class="flex flex-col h-full">
     <!-- Header -->
     <header class="bg-neutral100 bg-hero-pattern h-[834px]">
       <div class="container">
         <img class="pt-8 mb-[80px]" src="./images/logo.svg" alt="site logo" />
       </div>
+      <div class="container flex justify-between hero">
+        <div class="texts">
+          <h1
+            class="text-[62px] bg-clip-text text-transparent bg-textGradient font-bold font-martian"
+          >
+            Join the ultimate tech book club
+          </h1>
+          <p
+            class="font-inter text-neutral-700 w-[570px] text-[20px] mt-[24px] mb-[50px]"
+          >
+            Turn your reading time into learning time with fellow tech
+            enthusiasts. Get curated recommendations, join vibrant discussions,
+            and level up your skills one chapter at a time.
+          </p>
+          <a
+            class="px-[20px] flex w-[395px] rounded-lg border-neutral-900 font-martian font-semibold text-lg bg-salmon50 py-[20.05px] border-2"
+            href="#"
+            >REVIEW MEMBERSHIP OPTIONS
+            <img class="ml-2" src="./images/icon-arrow-down.svg" alt=""
+          /></a>
+          <div class="flex gap-3 mt-[22.5px]">
+            <img class="w-[110px]" src="./images/image-avatars.webp" alt="" />
+            <div class="flex flex-col">
+              <div class="flex flex-row gap-[6px]">
+                <img src="./images/icon-star.svg" alt="" />
+                <img src="./images/icon-star.svg" alt="" />
+                <img src="./images/icon-star.svg" alt="" />
+                <img src="./images/icon-star.svg" alt="" />
+                <img src="./images/icon-star.svg" alt="" />
+              </div>
+              <p class="text-sm text-neutral-700 font-martian">
+                200+ developers joined already
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="w-[536px] h-[606px] rounded-lg"
+          src="./images/image-hero-desktop.webp"
+          alt="hero image"
+        />
+      </div>
     </header>
 
     <!-- Main -->
-    <main></main>
+    <main class="container flex flex-col grow gap-[120px]">
+      <!-- Services -->
+      <section>
+        <!-- Read together, grow together -->
+        <div class="flex items-center pt-[110px] justify-between">
+          <img
+            class="rounded-xl w-[506px] h-[520px]"
+            src="./images//image-read-together-desktop.webp"
+            alt=""
+          />
+          <div>
+            <h2 class="font-semibold text-[50px] font-martian">
+              Read together, <br />
+              grow together
+            </h2>
+            <ul
+              class="flex flex-col gap-6 mt-[34px] font-inter text-neutral-700 text-[20px]"
+            >
+              <li class="flex w-[431px]">
+                <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
+                Monthly curated tech reads selected by industry experts
+              </li>
+              <li class="flex w-[431px]">
+                <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
+                Virtual and in-person meetups for deep-dive discussions
+              </li>
+              <li class="flex w-[431px]">
+                <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
+                Early access to new tech book releases
+              </li>
+              <li class="flex w-[431px]">
+                <img class="mr-[17px]" src="./images/icon-check.svg" alt="" />
+                Author Q&A sessions with tech thought leaders
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Not your average book club -->
+        <div class="flex items-center justify-between mt-[120px] relative">
+          <div>
+            <h2 class="font-semibold relative text-[50px] font-martian">
+              Not your average <br />
+              book <span>club</span>
+              <img
+                class="absolute top-[80px] left-[165px]"
+                src="./images/pattern-circle.png"
+                alt=""
+              />
+            </h2>
+            <p class="text-xl w-[530px] mt-6 text-neutral-700">
+              Connect with a community that speaks your language - from
+              <span class="font-semibold">Python</span> to
+              <span class="font-semibold">TypeScript</span> and everything in
+              between. Our discussions blend technical depth with practical
+              applications.
+            </p>
+            <img
+              class="absolute bottom-[31px] left-[580px] center"
+              src="images/logos-tech.svg"
+              alt=""
+            />
+          </div>
+          <img
+            class="rounded-xl w-[506px] h-[520px]"
+            src="./images/image-not-average-desktop.webp"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- Your tech reading journey -->
+      <section
+        class="text-center font-martian truncate relative hidden md:block bg-[#FAF5F3] rounded-xl py-[80px] px-[60px] bg-hero-pattern bg-section-pattern bg-full-and-bottom-right bg-no-repeat"
+      >
+        <h2 class="font-semibold text-[50px] text-[#062630]">
+          Your tech <br />
+          reading journey
+        </h2>
+        <div class="flex justify-between mt-[80px] wrapper">
+          <div class="relative w-[226px] h-[110px] text-left">
+            <div
+              class="text-2xl border-2 rounded border-[#062630] text-center h-10 w-10"
+            >
+              1
+            </div>
+            <h3 class="text-[18px] font-semibold text-neutral-900 mt-6">
+              Choose your <br />membership tier
+            </h3>
+            <img
+              class="absolute top-0 right-0"
+              src="./images/pattern-arrow.svg"
+              alt=""
+            />
+          </div>
+          <div class="relative w-[226px] h-[110px] text-left">
+            <div
+              class="text-2xl border-2 rounded border-[#062630] text-center h-10 w-10"
+            >
+              2
+            </div>
+            <h3 class="text-[18px] font-semibold text-neutral-900 mt-6">
+              Get your monthly <br />book selection
+            </h3>
+            <img
+              class="absolute top-0 right-0"
+              src="./images/pattern-arrow.svg"
+              alt=""
+            />
+          </div>
+          <div class="relative w-[226px] h-[110px] text-left">
+            <div
+              class="text-2xl border-2 rounded border-[#062630] text-center h-10 w-10"
+            >
+              3
+            </div>
+            <h3 class="text-[18px] font-semibold text-neutral-900 mt-6">
+              Join our <br />
+              discussion forums
+            </h3>
+            <img
+              class="absolute top-0 right-0"
+              src="./images/pattern-arrow.svg"
+              alt=""
+            />
+          </div>
+          <div class="relative w-[226px] h-[110px] text-left">
+            <div
+              class="text-2xl border-2 rounded border-[#062630] text-center h-10 w-10"
+            >
+              4
+            </div>
+            <h3 class="text-[18px] font-semibold text-neutral-900 mt-6">
+              Attend exclusive <br />
+              meetups
+            </h3>
+          </div>
+        </div>
+        <img
+          class="absolute top-[40px] left-[550px]"
+          src="./images/pattern-glow.svg"
+          alt=""
+        />
+      </section>
+      <!-- Membership options -->
+      <section
+        class="px-[100px] w-full text-neutral-900 font-martian flex items-center flex-col"
+      >
+        <h2 class="font-semibold text-[50px] mb-[64px] mx-auto">
+          Membership options
+        </h2>
+        <div class="flex items-center justify-between w-full wrapper">
+          <div
+            class="flex flex-col gap-6 p-6 border rounded-lg border-neutral-200 w-[286px] h-[358px]"
+          >
+            <h4 class="text-2xl font-semibold">Starter</h4>
+            <div class="text-[34px] font-semibold">
+              $29<span class="text-xl font-normal font-inter text-neutral-700"
+                >/month</span
+              >
+            </div>
+            <hr />
+            <ul class="flex flex-col gap-4">
+              <li class="flex text-xl font-normal font-inter text-neutral-700">
+                <img
+                  class="mr-[13.71px]"
+                  src="./images/icon-check.svg"
+                  alt=""
+                />1 book/month
+              </li>
+              <li class="flex text-xl font-normal font-inter text-neutral-700">
+                <img
+                  class="mr-[13.71px]"
+                  src="./images/icon-check.svg"
+                  alt=""
+                />Online forums
+              </li>
+            </ul>
+            <a
+              class="p-5 text-center border-2 rounded-lg border-neutral-900 bg-salmon50"
+              href="#"
+              >SUBSCRIBE NOW</a
+            >
+          </div>
+          <div
+            class="flex flex-col gap-6 px-6 py-10 border rounded-lg border-neutral-200 bg-[#FAF5F3] bg-circle-pattern-pos bg-circle-pattern h-[390px] w-[350px] bg-no-repeat"
+          >
+            <h4 class="text-2xl font-semibold">Pro</h4>
+            <div class="text-[34px] font-semibold">
+              $19<span class="text-xl font-normal font-inter text-neutral-700"
+                >/month</span
+              >
+            </div>
+            <hr />
+            <ul class="flex flex-col gap-4">
+              <li class="flex text-xl font-normal font-inter text-neutral-700">
+                <img
+                  class="mr-[13.71px]"
+                  src="./images/icon-check.svg"
+                  alt=""
+                />1 book/month
+              </li>
+              <li class="flex text-xl font-normal font-inter text-neutral-700">
+                <img
+                  class="mr-[13.71px]"
+                  src="./images/icon-check.svg"
+                  alt=""
+                />Online forums
+              </li>
+            </ul>
+            <a
+              class="p-5 text-center border-2 rounded-lg border-neutral-900 bg-salmon50"
+              href="#"
+              >SUBSCRIBE NOW</a
+            >
+          </div>
+          <div
+            class="flex flex-col gap-6 p-6 border rounded-lg border-neutral-200 w-[286px] h-[358px]"
+          >
+            <h4 class="text-2xl font-semibold">Enterprise</h4>
+            <div class="text-[34px] font-semibold">Custom</div>
+            <hr />
+            <ul class="flex flex-col gap-4">
+              <li class="flex text-xl font-normal font-inter text-neutral-700">
+                <img
+                  class="mr-[13.71px]"
+                  src="./images/icon-check.svg"
+                  alt=""
+                />1 book/month
+              </li>
+              <li class="flex text-xl font-normal font-inter text-neutral-700">
+                <img
+                  class="mr-[13.71px]"
+                  src="./images/icon-check.svg"
+                  alt=""
+                />Online forums
+              </li>
+            </ul>
+            <a
+              class="p-5 text-center border-2 rounded-lg border-neutral-900 bg-salmon50"
+              href="#"
+              >SUBSCRIBE NOW</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col items-center gap-8">
+        <div class="flex flex-row gap-[6px]">
+          <img src="./images/icon-star.svg" alt="" />
+          <img src="./images/icon-star.svg" alt="" />
+          <img src="./images/icon-star.svg" alt="" />
+          <img src="./images/icon-star.svg" alt="" />
+          <img src="./images/icon-star.svg" alt="" />
+        </div>
+        <h2
+          class="font-semibold font-martian text-[34px] w-[970px] text-center text-neutral-900"
+        >
+          "This book club transformed my technical reading from a solitary
+          activity into an enriching community experience. The discussions are
+          gold!"
+        </h2>
+        <p class="text-xl text-neutral-700 font-inter">
+          Sarah Chen, Software Architect
+        </p>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer class="bg-[#062630] bg-footer-texture mt-[120px] pt-[80px]">
+      <div class="container flex flex-col items-center footer-top">
+        <h2
+          class="font-semibold text-[50px] text-[#FAF5F3] mb-10 w-[650px] text-center"
+        >
+          Ready to debug your reading list?
+        </h2>
+        <a
+          class="px-[20px] flex w-[395px] rounded-lg border-white font-martian text-white font-semibold text-lg bg-transparent py-[20.05px] border-2"
+          href="#"
+          >REVIEW MEMBERSHIP OPTIONS
+          <img class="ml-2" src="./images/icon-arrow-up.svg" alt=""
+        /></a>
+        <div class="flex gap-3 mt-[22.5px] mb-[68.5px]">
+          <img class="w-[110px]" src="./images/image-avatars.webp" alt="" />
+          <div class="flex flex-col">
+            <div class="flex flex-row gap-[6px]">
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+            </div>
+            <p class="text-sm text-[#FAF5F3] font-martian">
+              200+ developers joined already
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container flex justify-between py-6 text-sm text-white border-t border-[#385159] footer-bottom font-martian"
+      >
+        <p>&copy; 2024 – Tech Book Club</p>
+        <div class="flex gap-6 icons">
+          <img src="./images/logo-bluesky.svg" alt="bluesky icon" />
+          <img src="./images/logo-linkedin.svg" alt="linkedin icon" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
