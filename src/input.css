@@ -18,6 +18,8 @@
   /* Gradient */
   --gradient-text: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
   --gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+  --gradient-button-dark: linear-gradient(90deg, #385159 0%, #062630 100%);
+  --gradient-button-light: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
 }
 
 @layer utilities {
